@@ -27,7 +27,39 @@ public class Ranking {
         movie.setRank(rank);
         int index = rank - 1;
         this.movies[index] = movie;
-
     }
 
+    public Movie getMovie(int rank) {
+        int index = rank - 1;
+        return this.movies[index];
+    }
+
+    public Movie findMovie(String title) {
+        for(Movie movie : movies) {
+            if (movie != null) {
+                if (movie.getTitle() == title) {
+                    return movie;
+                }
+            }
+        }
+        return null;
+    }
+
+    public void updateMovie(Movie movie, String operator) {
+        if(operator == "+"){
+            int current_rank = movie.getRank();
+            Movie movie_above = getMovie((current_rank - 1));
+            int movie_above_current_rank = movie_above.getRank();
+            addMovie(movie_above,(movie_above_current_rank + 1));
+            addMovie(movie,(current_rank - 1));
+        }
+        else if(operator == "-"){
+            int current_rank = movie.getRank();
+            Movie movie_below = getMovie((current_rank + 1));
+            int movie_below_current_rank = movie_below.getRank();
+            addMovie(movie_below,(movie_below_current_rank - 1));
+            addMovie(movie,(current_rank + 1));
+        }
+
+    }
 }
