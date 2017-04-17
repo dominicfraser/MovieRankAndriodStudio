@@ -19,4 +19,12 @@ public class Movie {
     public String getTitle() {
         return this.title;
     }
+
+    public String getGenre() {
+        return this.genre;
+    }
+
+    public int getRank() {
+        return this.rank;
+    }
 }

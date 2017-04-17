@@ -21,4 +21,14 @@ public class MovieTest {
     public void canGetTitle(){
         assertEquals("Movie1",movie1.getTitle());
     }
+
+    @Test
+    public void canGetGenre(){
+        assertEquals("Genre1",movie1.getGenre());
+    }
+
+    @Test
+    public void canGetRank(){
+        assertEquals(0,movie1.getRank());
+    }
 }
