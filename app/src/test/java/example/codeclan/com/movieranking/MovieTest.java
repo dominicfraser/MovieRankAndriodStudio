@@ -14,7 +14,7 @@ public class MovieTest {
 
     @Before
     public void before(){
-        this.movie1 = new Movie("Movie1","Genre1");
+        movie1 = new Movie("Movie1","Genre1");
     }
 
     @Test
@@ -30,5 +30,23 @@ public class MovieTest {
     @Test
     public void canGetRank(){
         assertEquals(0,movie1.getRank());
+    }
+
+    @Test
+    public void canSetTitle(){
+        movie1.setTitle("Movie_1");
+        assertEquals("Movie_1",movie1.getTitle());
+    }
+
+    @Test
+    public void canSetGenre(){
+        movie1.setGenre("Genre_1");
+        assertEquals("Genre_1",movie1.getGenre());
+    }
+
+    @Test
+    public void canSetRank(){
+        movie1.setRank(1);
+        assertEquals(1,movie1.getRank());
     }
 }
