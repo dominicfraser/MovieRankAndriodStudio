@@ -5,4 +5,18 @@ package example.codeclan.com.movieranking;
  */
 
 public class Movie {
+
+    private String title;
+    private String genre;
+    private int rank;
+
+    public Movie(String title, String genre){
+        this.title = title;
+        this.genre = genre;
+        this.rank = 0;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
 }
