@@ -49,4 +49,9 @@ public class MovieTest {
         movie1.setRank(1);
         assertEquals(1,movie1.getRank());
     }
+
+    @Test
+    public void prettifiesDetails(){
+        assertEquals("Title: Movie1, Genre: Genre1, Rank: 0",movie1.toString());
+    }
 }

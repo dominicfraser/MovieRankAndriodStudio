@@ -39,4 +39,9 @@ public class Movie {
     public void setRank(int rank) {
         this.rank = rank;
     }
+
+    @Override
+    public String toString(){
+        return "Title: " + this.title + ", Genre: " + this.genre + ", Rank: " + this.rank;
+    }
 }
