@@ -28,8 +28,8 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/example/codeclan/com/movieranking/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#378#379#0" expanded="true" />
@@ -51,11 +51,11 @@
       <file leaf-file-name="Ranking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/example/codeclan/com/movieranking/Ranking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="274">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +64,8 @@
       <file leaf-file-name="RankingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/example/codeclan/com/movieranking/RankingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="441">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
@@ -78,8 +78,8 @@
       <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/example/codeclan/com/movieranking/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+            <state relative-caret-position="396">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -1997,33 +1997,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android JUnit.RankingTest">
-    <configuration default="false" name="MovieTest.canSetTitle" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="example.codeclan.com.movieranking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.codeclan.com.movieranking" />
-      <option name="MAIN_CLASS_NAME" value="example.codeclan.com.movieranking.MovieTest" />
-      <option name="METHOD_NAME" value="canSetTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Android JUnit.RankingTest.canAddMovie">
     <configuration default="false" name="MovieTest.canSetGenre" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2116,6 +2090,32 @@
       <option name="MAIN_CLASS_NAME" value="example.codeclan.com.movieranking.RankingTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RankingTest.canAddMovie" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="example.codeclan.com.movieranking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.codeclan.com.movieranking" />
+      <option name="MAIN_CLASS_NAME" value="example.codeclan.com.movieranking.RankingTest" />
+      <option name="METHOD_NAME" value="canAddMovie" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -2416,19 +2416,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetTitle" />
-      <item index="2" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetGenre" />
-      <item index="3" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetRank" />
-      <item index="4" class="java.lang.String" itemvalue="Android JUnit.MovieTest.prettifiesDetails" />
-      <item index="5" class="java.lang.String" itemvalue="Android JUnit.RankingTest" />
+      <item index="1" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetGenre" />
+      <item index="2" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetRank" />
+      <item index="3" class="java.lang.String" itemvalue="Android JUnit.MovieTest.prettifiesDetails" />
+      <item index="4" class="java.lang.String" itemvalue="Android JUnit.RankingTest" />
+      <item index="5" class="java.lang.String" itemvalue="Android JUnit.RankingTest.canAddMovie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android JUnit.RankingTest" />
-        <item index="1" class="java.lang.String" itemvalue="Android JUnit.MovieTest.prettifiesDetails" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetRank" />
-        <item index="3" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetGenre" />
-        <item index="4" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetTitle" />
+        <item index="0" class="java.lang.String" itemvalue="Android JUnit.RankingTest.canAddMovie" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.RankingTest" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.MovieTest.prettifiesDetails" />
+        <item index="3" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetRank" />
+        <item index="4" class="java.lang.String" itemvalue="Android JUnit.MovieTest.canSetGenre" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2488,13 +2488,19 @@
     <history-entry file="RankingTest - 2017.04.17 at 16h 15m 24s.xml">
       <configuration name="RankingTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="RankingTest_canAddMovie - 2017.04.17 at 16h 29m 16s.xml">
+      <configuration name="RankingTest.canAddMovie" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="RankingTest_canAddMovie - 2017.04.17 at 16h 32m 51s.xml">
+      <configuration name="RankingTest.canAddMovie" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="28" width="1278" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2538,28 +2544,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/example/codeclan/com/movieranking/MovieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/example/codeclan/com/movieranking/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
@@ -2577,21 +2565,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/example/codeclan/com/movieranking/MovieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/example/codeclan/com/movieranking/Ranking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="274">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/example/codeclan/com/movieranking/RankingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="441">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />

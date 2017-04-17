@@ -23,4 +23,11 @@ public class RankingTest {
     public void rankingStartsEmpty(){
         assertEquals(0,topten.entriesCount());
     }
+
+    @Test
+    public void canAddMovie(){
+        topten.addMovie(movie1,1);
+        assertEquals(1, topten.entriesCount());
+        assertEquals(1, movie1.getRank());
+    }
 }

@@ -9,17 +9,25 @@ import java.lang.reflect.Array;
 public class Ranking {
     private Movie[] movies;
 
-    public Ranking(){
+    public Ranking() {
         this.movies = new Movie[10];
     }
 
     public int entriesCount() {
         int count = 0;
-        for(Movie movie : movies){
-            if(movie != null){
-                count ++;
+        for (Movie movie : movies) {
+            if (movie != null) {
+                count++;
             }
         }
         return count;
     }
+
+    public void addMovie(Movie movie, int rank) {
+        movie.setRank(rank);
+        int index = rank - 1;
+        this.movies[index] = movie;
+
+    }
+
 }
